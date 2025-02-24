@@ -3,128 +3,7 @@
 ## Overview
 CloudLock is a next-generation password manager that leverages AI technology, zero-trust authentication, and multi-cloud backup to provide unprecedented security for your digital credentials. With advanced features like AI-powered phishing detection and dark web monitoring, CloudLock ensures your passwords remain secure in an increasingly complex digital landscape.
 
-![CloudLock Dashboard](https://raw.githubusercontent.com/LemonmadeDesigns/cloudlock/main/screenshots/dashboard-dark.png)
-
-<details>
-<summary><strong>🚀 Deployment & Local Setup Guide</strong></summary>
-
-### Local Development Setup
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/LemonmadeDesigns/cloudlock.git
-   cd cloudlock
-   ```
-
-2. **Environment Variables**
-   - Create a `.env` file in the root directory
-   - Copy the following variables and replace with your Supabase credentials:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-   > ⚠️ Never commit your `.env` file to version control!
-
-3. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-
-### Production Deployment
-
-1. **Environment Setup**
-   - When deploying to platforms like Netlify or Vercel:
-     - Add the following environment variables in your deployment platform:
-       - `VITE_SUPABASE_URL`
-       - `VITE_SUPABASE_ANON_KEY`
-
-2. **Build Configuration**
-   - Build command: `npm run build`
-   - Output directory: `dist`
-   - Node.js version: 18.x or higher
-
-3. **Supabase Configuration**
-   - No additional Supabase configuration is needed
-   - The project will continue using the same Supabase instance
-   - Ensure your Supabase project's URL is allowed in CORS settings:
-     1. Go to your Supabase Dashboard
-     2. Project Settings → API
-     3. Add your deployment URL to "Additional Allowed URLs"
-
-4. **Security Considerations**
-   - Enable RLS (Row Level Security) in Supabase
-   - Configure proper CORS settings
-   - Use environment variables for sensitive data
-   - Never expose admin keys in client-side code
-
-5. **Deployment Platforms**
-   
-   **Netlify**:
-   ```bash
-   # Install Netlify CLI
-   npm install -g netlify-cli
-   
-   # Deploy
-   netlify deploy
-   ```
-
-   **Vercel**:
-   ```bash
-   # Install Vercel CLI
-   npm install -g vercel
-   
-   # Deploy
-   vercel
-   ```
-
-6. **Post-Deployment**
-   - Verify environment variables are set
-   - Test authentication flow
-   - Confirm database connections
-   - Check CORS settings if needed
-
-### Troubleshooting
-
-Common issues and solutions:
-
-1. **Database Connection Issues**
-   - Verify environment variables are correct
-   - Check Supabase project status
-   - Confirm CORS settings in Supabase dashboard
-
-2. **Authentication Problems**
-   - Clear browser cache and local storage
-   - Verify Supabase URL and anon key
-   - Check for proper email configurations in Supabase
-
-3. **Build Failures**
-   - Ensure all dependencies are installed
-   - Verify Node.js version compatibility
-   - Check for any environment variable issues
-
-### Maintenance
-
-1. **Regular Updates**
-   - Keep dependencies updated
-   - Monitor Supabase dashboard for issues
-   - Review security policies regularly
-
-2. **Backup Strategy**
-   - Supabase handles database backups
-   - Consider additional backup solutions for critical data
-   - Document recovery procedures
-
-3. **Monitoring**
-   - Set up error tracking (e.g., Sentry)
-   - Monitor API usage in Supabase
-   - Track authentication attempts
-
-</details>
+![CloudLock Dashboard](/public/imgs/dashboard-dark.png)
 
 ## 🔐 Key Features
 
@@ -134,7 +13,7 @@ Common issues and solutions:
 - **Multi-Cloud Backup**: Redundant storage across AWS, Google Cloud, and Azure
 - **Self-Destruct Mode**: Emergency credential wiping across all devices and cloud storage
 
-![CloudLock Landing](https://raw.githubusercontent.com/LemonmadeDesigns/cloudlock/main/screenshots/landing.png)
+![CloudLock Landing](/public/imgs/landing.png)
 
 ### AI-Powered Protection
 - **Intelligent Phishing Detection**: Real-time protection against malicious websites
@@ -142,7 +21,7 @@ Common issues and solutions:
 - **Dark Web Monitoring**: Immediate alerts if credentials are compromised
 - **Adaptive Security**: Learning from new threat patterns
 
-![CloudLock Auth](https://raw.githubusercontent.com/LemonmadeDesigns/cloudlock/main/screenshots/auth.png)
+![CloudLock Auth](/public/imgs/auth.png)
 
 ## 💡 Use Cases
 
