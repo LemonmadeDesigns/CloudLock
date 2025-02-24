@@ -4,7 +4,7 @@
 
 CloudLock is a next-generation password manager that leverages AI technology, zero-trust authentication, and multi-cloud backup to provide unprecedented security for your digital credentials. With advanced features like AI-powered phishing detection and dark web monitoring, CloudLock ensures your passwords remain secure in an increasingly complex digital landscape.
 
-![CloudLock Dashboard](/public/imgs/dashboard-dark.png)
+![CloudLock Dashboard](/public/imgs/pic_3.png)
 
 ## 🔐 Key Features
 
@@ -15,7 +15,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 - **Multi-Cloud Backup**: Redundant storage across AWS, Google Cloud, and Azure
 - **Self-Destruct Mode**: Emergency credential wiping across all devices and cloud storage
 
-![CloudLock Landing](/public/imgs/landing.png)
+![CloudLock Landing](/public/imgs/pic_2.png)
 
 ### AI-Powered Protection
 
@@ -24,7 +24,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 - **Dark Web Monitoring**: Immediate alerts if credentials are compromised
 - **Adaptive Security**: Learning from new threat patterns
 
-![CloudLock Auth](/public/imgs/auth.png)
+![CloudLock Auth](/public/imgs/pic_1.png)
 
 ## 💡 Use Cases
 
@@ -164,7 +164,7 @@ This project was developed as part of a school project by the following contribu
 ## 📝 Repository and Deployment
 
 - Repository: [github.com/LemonmadeDesigns/cloudlock](https://github.com/LemonmadeDesigns/cloudlock)
-- Production Site: [cloud-lock.org](http://cloud-lock.org)
+- Production Site: [cloud-lock.org](https://cloud-lock.org)
 - Development Site: [cozy-heliotrope-2865ec.netlify.app](https://cozy-heliotrope-2865ec.netlify.app)
 
 ---
