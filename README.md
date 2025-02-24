@@ -117,13 +117,6 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 4. Set up emergency access procedures
 5. Keep the application and extensions updated
 
-## 📖 Documentation
-
-- [User Guide](docs/user-guide.md)
-- [Security Whitepaper](docs/security.md)
-- [API Documentation](docs/api.md)
-- [Enterprise Setup](docs/enterprise.md)
-
 ## 🤝 Support
 
 - 24/7 technical support
@@ -166,8 +159,6 @@ This project was developed as part of a school project by the following contribu
 - Repository: [github.com/LemonmadeDesigns/cloudlock](https://github.com/LemonmadeDesigns/cloudlock)
 - Production Site: [cloud-lock.org](https://cloud-lock.org)
 - Development Site: [cozy-heliotrope-2865ec.netlify.app](https://cozy-heliotrope-2865ec.netlify.app)
-
----
 
 For more information, visit our [website](http://cloud-lock.org) or contact our [support team](mailto:support@cloud-lock.org).
 
