@@ -1,6 +1,7 @@
 # **CloudLock**: AI-Secured Password Manager
 
 ## Overview
+
 CloudLock is a next-generation password manager that leverages AI technology, zero-trust authentication, and multi-cloud backup to provide unprecedented security for your digital credentials. With advanced features like AI-powered phishing detection and dark web monitoring, CloudLock ensures your passwords remain secure in an increasingly complex digital landscape.
 
 ![CloudLock Dashboard](/public/imgs/dashboard-dark.png)
@@ -8,6 +9,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 ## 🔐 Key Features
 
 ### Core Security
+
 - **Zero-Trust Authentication**: Multi-layered security approach with no implicit trust
 - **End-to-End Encryption**: AES-256 and RSA-4096 encryption standards
 - **Multi-Cloud Backup**: Redundant storage across AWS, Google Cloud, and Azure
@@ -16,6 +18,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 ![CloudLock Landing](/public/imgs/landing.png)
 
 ### AI-Powered Protection
+
 - **Intelligent Phishing Detection**: Real-time protection against malicious websites
 - **Password Strength Analysis**: AI-driven password evaluation and suggestions
 - **Dark Web Monitoring**: Immediate alerts if credentials are compromised
@@ -26,6 +29,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 ## 💡 Use Cases
 
 ### Individual Users
+
 - Secure password storage and management
 - Automatic strong password generation
 - Cross-device synchronization
@@ -33,6 +37,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 - Emergency access for trusted contacts
 
 ### Business Users
+
 - Team password sharing and management
 - Role-based access control
 - Audit logging and compliance reporting
@@ -42,18 +47,21 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 ## 🚀 Getting Started
 
 ### 1. Sign Up
+
 1. Visit the CloudLock website or download the mobile app
 2. Create an account with your email
 3. Set up your master password and multi-factor authentication
 4. Complete the security questionnaire for emergency recovery
 
 ### 2. First-Time Setup
+
 1. Import existing passwords (supports all major password managers)
 2. Install browser extensions
 3. Enable cloud backup preferences
 4. Configure security settings and alerts
 
 ### 3. Daily Usage
+
 1. Access your vault through the app or browser extension
 2. Add new passwords automatically when creating accounts
 3. Use the password generator for new credentials
@@ -62,24 +70,28 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 ## 🛡️ Security Features
 
 ### Authentication Methods
+
 - Biometric authentication (fingerprint, face ID)
 - Hardware security keys (YubiKey, FIDO2)
 - Time-based one-time passwords (TOTP)
 - SMS/email verification codes
 
 ### Emergency Access
+
 - Self-destruct capability for compromised vaults
 - Trusted contact recovery system
 - Offline access protocols
 - Legal compliance support
 
 ## 📱 Supported Platforms
+
 - Web interface (all major browsers)
 - Mobile apps (iOS, Android)
 - Desktop applications (Windows, macOS, Linux)
 - Browser extensions (Chrome, Firefox, Safari, Edge)
 
 ## 🔧 Technical Stack
+
 - **Frontend**: Next.js, React Native
 - **Backend**: Node.js, Express.js, Django
 - **Cloud Services**: AWS, Azure, Google Cloud
@@ -90,6 +102,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 ## 🌟 Best Practices
 
 ### Password Management
+
 1. Use the password generator for all new accounts
 2. Enable multi-factor authentication wherever possible
 3. Regularly review and update stored credentials
@@ -97,6 +110,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 5. Use the security score feature to identify weak passwords
 
 ### Security Measures
+
 1. Keep your master password secure and unique
 2. Enable biometric authentication when available
 3. Regularly review active sessions and devices
@@ -104,12 +118,14 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 5. Keep the application and extensions updated
 
 ## 📖 Documentation
+
 - [User Guide](docs/user-guide.md)
 - [Security Whitepaper](docs/security.md)
 - [API Documentation](docs/api.md)
 - [Enterprise Setup](docs/enterprise.md)
 
 ## 🤝 Support
+
 - 24/7 technical support
 - Security incident response team
 - Community forums
@@ -117,6 +133,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 - Training resources
 
 ## 🔄 Updates and Maintenance
+
 - Automatic security updates
 - Regular feature additions
 - Vulnerability patches
@@ -124,6 +141,7 @@ CloudLock is a next-generation password manager that leverages AI technology, ze
 - User feedback implementation
 
 ## 📈 Future Roadmap
+
 - Blockchain integration for enhanced security
 - Advanced AI threat detection
 - Hardware security module support
@@ -153,4 +171,4 @@ This project was developed as part of a school project by the following contribu
 
 For more information, visit our [website](http://cloud-lock.org) or contact our [support team](mailto:support@cloud-lock.org).
 
-*CloudLock - Securing Your Digital Identity with AI-Powered Protection*
+** CloudLock - Securing Your Digital Identity with AI-Powered Protection
